@@ -1,6 +1,11 @@
 # Live-jogo-da-forca
 ## Código com o jogo da forca , um readme para mais detalhes e o link do video da live :D 
 
+
+
+
+
+
 from random import choice
 import os
 import colorama
@@ -16,9 +21,13 @@ erroletra = ''
 acertoletra = ''
 
 while acertos != len(palavra) and erros != 6:
+
     print(' ')
+    
     mensagem = ''
+    
     for letra in palavra:
+    
         if letra in acertoletra:
             mensagem += f'{letra}'
         else:
