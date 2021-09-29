@@ -22,18 +22,13 @@ list
 agora iremos fazer um for no nosso jogo da forca
 
     for letra in palavra:
-#aqui estamos pegando cada letra da palavra e retornando dentro da estrutura abaixo
+aqui estamos pegando cada letra da palavra e retornando dentro da estrutura abaixo
     if letra in acertoletra:
             mensagem += letra
-#se a letra estiver na palavra 
-# o print toda vez por padrao imprime uma letra e ja pula uma linha, por isso declaramos mensagem=' '
-#utilizamos também o f string 
-        f'{letra}'
-nisso tudo que esta dentro das chaves lê o valor pythônico 
-ele vai ler o valor da variavel letra
-
+ 
     else:
             mensagem += '_'
-#se não estiver iremos imprimir 
+se não estiver iremos imprimir 
+
 
 ==============================================================================================================
