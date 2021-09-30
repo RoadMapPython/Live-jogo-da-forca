@@ -26,6 +26,10 @@ else :
 
 pronto! 
 =================================================================================================
+ Ta mas e agora? O código vai ficar assim mesmo so uma letrinha ?
+ iremos resolver isso agora utilizando o while 
+ 
+=================================================================================================
 Agora chegamos em uma parte que parece complicada ,que é um conteudo que nao é abordado na disciplina do técnico ,um pouco complexo mais usado em conteúdos mais avançados ,porém entretanto todavia iremos fazer uma breve pincelada para o entendimento dessa estrutura ,mas pode deixar que quando for entendida você vai pensar "Agora eu entendi
 ,agora eu saquei ,agora todas as peças encaixaram!"  
 
@@ -121,3 +125,5 @@ Obs: O código abaixo pode não estar com a identação correta.
 
     elif acertos == len(palavra):
         print(Fore.GREEN + Style.BRIGHT + "^.^ Você ganhou, parabens! ^.^ " + Style.RESET_ALL)
+       
+-_-_-Dicionário-_-_-
