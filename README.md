@@ -12,14 +12,14 @@ Na live de hoje iremos utilizar bastante o conceito de listas durante a constru�
 ==================================|Construção do código|======================================
 Agora que demos uma passada no conceito de listas iremos direto ao código , vamo declarar uma váriavel.
   
-  palavra='Python'
+  escolha ='Roadmap'
     
 a palavra 'python' está armazenada na variável palavra
 
 agora vamos fazer o usuário tentar adivinhar uma letra 
 
 letra=input('Digite a letra:')
-if letra in palavra:
+if letra in escolha:
      print('Você acertou uma letra')
 else :
      print('Você errou uma letra')
@@ -29,6 +29,15 @@ pronto!
  Ta mas e agora? O código vai ficar assim mesmo so uma letrinha ?
  iremos resolver isso agora utilizando o while 
  
+acertos = 0
+erros   = 0
+escolha='Roadmap'
+
+  letra=input('Digite a letra:')
+  if letra in palavra:
+       print('Você acertou uma letra')
+  else :
+       print('Você errou uma letra')
 =================================================================================================
 Agora chegamos em uma parte que parece complicada ,que é um conteudo que nao é abordado na disciplina do técnico ,um pouco complexo mais usado em conteúdos mais avançados ,porém entretanto todavia iremos fazer uma breve pincelada para o entendimento dessa estrutura ,mas pode deixar que quando for entendida você vai pensar "Agora eu entendi
 ,agora eu saquei ,agora todas as peças encaixaram!"  
@@ -79,20 +88,20 @@ Obs: O código abaixo pode não estar com a identação correta.
 
        linhas=aplicacoes.read()
        list= linhas.split('\n')
-    palavra= choice(list).lower()
+    escolha= choice(list).lower()
 
     acertos = 0
     erros = 0
     erroletra = ''
     acertoletra = ''
 
-    while acertos != len(palavra) and erros != 6:
+    while acertos != len(escolha) and erros != 6:
 
         print(' ')
     
         mensagem = ''
     
-        for letra in palavra:
+        for letra in escolha:
     
            if letra in acertoletra:
                mensagem += letra             
@@ -111,10 +120,10 @@ Obs: O código abaixo pode não estar com a identação correta.
         print(Fore.RED + 'Ops você ja usou essa letra ʘ.ʘ')
     elif letra.isalpha() == False:
         print('Você não digitou uma letra! ◉.◉')
-    elif letra in palavra:
+    elif letra in escolha:
         print('Tem essa letra uau ! ツ ')
         acertoletra += letra
-        acertos += palavra.count(letra)
+        acertos += escolha.count(letra)
     else:
         print('Uma pena , não tem essa letra x _ x')
         erroletra += letra
@@ -127,15 +136,19 @@ Obs: O código abaixo pode não estar com a identação correta.
         print(Fore.GREEN + Style.BRIGHT + "^.^ Você ganhou, parabens! ^.^ " + Style.RESET_ALL)
        
 -_-_-Dicionário-_-_-
-From-
-random-
-choice-
-import-
-Fore-
-Style-
-init-
-with-
-open-
-split-
-lower-
-while-
+From      A partir de
+random    Aleatório(a)
+choice    Escolha
+import    Importar
+Fore     
+Style     Estilo 
+init      Iniciar
+with      Com
+open      Abrir
+split     Dividir
+lower     Diminuir
+while     Enquanto
+for       Para
+if        E se
+else      Senão
+RESET_ALL Resetar tudo
