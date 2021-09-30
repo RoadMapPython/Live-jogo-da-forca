@@ -127,3 +127,15 @@ Obs: O código abaixo pode não estar com a identação correta.
         print(Fore.GREEN + Style.BRIGHT + "^.^ Você ganhou, parabens! ^.^ " + Style.RESET_ALL)
        
 -_-_-Dicionário-_-_-
+From-
+random-
+choice-
+import-
+Fore-
+Style-
+init-
+with-
+open-
+split-
+lower-
+while-
