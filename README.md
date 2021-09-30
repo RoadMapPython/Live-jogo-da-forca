@@ -11,9 +11,20 @@ Na live de hoje iremos utilizar bastante o conceito de listas durante a constru�
 
 ======================================|Construção do código|==========================================
 Agora que demos uma passada no conceito de listas iremos direto ao código , vamo declarar uma váriavel.
-palavra='python'
-a palavra 'python' está armazenada na variável </b> palavra
+  
+  palavra='Python'
+    
+a palavra 'python' está armazenada na variável palavra
 
+agora vamos fazer o usuário tentar adivinhar uma letra 
+
+letra=input('Digite a letra:')
+if letra in palavra:
+     print('Você acertou uma letra')
+else :
+     print('Você errou uma letra')
+
+pronto! 
 =================================================================================================
 Agora chegamos em uma parte que parece complicada ,que é um conteudo que nao é abordado na disciplina do técnico ,um pouco complexo mais usado em conteúdos mais avançados ,porém entretanto todavia iremos fazer uma breve pincelada para o entendimento dessa estrutura ,mas pode deixar que quando for entendida você vai pensar "Agora eu entendi
 ,agora eu saquei ,agora todas as peças encaixaram!"  
