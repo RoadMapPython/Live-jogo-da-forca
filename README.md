@@ -9,7 +9,7 @@ destacado para lembrarmos do objetivo de nosso código de hoje.
 
 Na live de hoje iremos utilizar bastante o conceito de listas durante a construção do código ,listas e tuplas podem conter vários valores, o que torna mais fácil escrever programas que lidam com grandes quantidades de dados. E como as próprias listas podem conter outras listas, você pode usá-las para organizar os dados em cadeias de comandos.
 
-======================================|Construção do código|==========================================
+==================================|Construção do código|======================================
 Agora que demos uma passada no conceito de listas iremos direto ao código , vamo declarar uma váriavel.
   
   palavra='Python'
