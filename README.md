@@ -8,9 +8,11 @@ E é quase isso que iremos realizar hoje so que em formato de código, iremos pe
 destacado para lembrarmos do objetivo de nosso código de hoje.
 
 Na live de hoje iremos utilizar bastante o conceito de listas durante a construção do código ,listas e tuplas podem conter vários valores, o que torna mais fácil escrever programas que lidam com grandes quantidades de dados. E como as próprias listas podem conter outras listas, você pode usá-las para organizar os dados em cadeias de comandos.
-/p
+
 ======================================|Construção do código|==========================================
 Agora que demos uma passada no conceito de listas iremos direto ao código , vamo declarar uma váriavel.
+palavra='python'
+a palavra 'python' está armazenada na variável </b> palavra
 
 =================================================================================================
 Agora chegamos em uma parte que parece complicada ,que é um conteudo que nao é abordado na disciplina do técnico ,um pouco complexo mais usado em conteúdos mais avançados ,porém entretanto todavia iremos fazer uma breve pincelada para o entendimento dessa estrutura ,mas pode deixar que quando for entendida você vai pensar "Agora eu entendi
