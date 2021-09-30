@@ -36,7 +36,7 @@ if letra in escolha:
 else :
      print('Você errou uma letra')
 
-pronto! 
+pronto! agora nosso usuário pode ver se tem uma etra na palavra
 
 ========================================================================================
  Ta mas e agora? O código vai ficar assim mesmo so uma letrinha ?
@@ -64,7 +64,34 @@ while acertos != len(escolha) and erros != 6:
  somar mais um na variável de erro dele.
  
 =================================================================================================
-"Nossa mas eu coloquei vários A e consegui ganhar !?", calma 
+"Nossa mas eu coloquei vários A e consegui ganhar !?", é isso que iremos fazer agora!
+
+acertos = 0
+erros   = 0
+acertoletra = ' '
+erroletra = ' '
+
+escolha='Roadmap'.lower()
+
+while acertos != len(escolha) and erros != 6:
+  letra=input('Digite a letra:').lower()
+  
+  if letra in acertoletra or letra in erroletra:
+       print('Ops você ja usou essa letra ʘ.ʘ')
+  
+  elif letra.isalpha() == False:
+       print('Você não digitou uma letra! ◉.◉')
+       
+  if letra in escolha:
+       print('Você acertou uma letra')
+       acertoletra += letra
+       acertos += 1
+       
+  else :
+       print('Você errou uma letra')
+       erroletra += letra
+       erros += 1
+  
 =================================================================================================
 =================================================================================================
 Agora chegamos em uma parte que parece complicada ,que é um conteudo que nao é abordado na disciplina do técnico ,um pouco complexo mais usado em conteúdos mais avançados ,porém entretanto todavia iremos fazer uma breve pincelada para o entendimento dessa estrutura ,mas pode deixar que quando for entendida você vai pensar "Agora eu entendi
