@@ -1,6 +1,6 @@
 # Live-jogo-da-forca
 ## Código com o jogo da forca , um readme para mais detalhes e o link da live gravada :D 
-============================================================================================
+======================================|Introdução|==========================================
 Olá sejam bem vindos(as) a nossa 4° Live do nosso projeto de RoadMapPython, hoje iremos realizar a criação de um jogo da forca em python , utilizando  o Atom como editor de texto executando o python via terminal, ao decorrer da criação do código vou explicar mais como funciona.
 
 Primeiramente eu queria conversar sobre o que é um jogo da forca e como consiste ele .Bem , o jogo da forca é um jogo em que o jogador tem que acertar qual é a palavra que foi dada, a pessoa deve tentar acertar chutando as letras , caso acerte a pessoa ganha , mas caso a pessoa chute várias letras que estejam erradas o usuário perde.
@@ -8,7 +8,7 @@ E é quase isso que iremos realizar hoje so que em formato de código, iremos pe
 destacado para lembrarmos do objetivo de nosso código de hoje.
 
 Na live de hoje iremos utilizar bastante o conceito de listas durante a construção do código ,listas e tuplas podem conter vários valores, o que torna mais fácil escrever programas que lidam com grandes quantidades de dados. E como as próprias listas podem conter outras listas, você pode usá-las para organizar os dados em cadeias de comandos.
-
+======================================|Construção do código|==========================================
 Agora que demos uma passada no conceito de listas iremos direto ao código , vamo declarar uma váriavel.
 
 =================================================================================================
