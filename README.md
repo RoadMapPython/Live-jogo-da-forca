@@ -1,7 +1,7 @@
 # Live-jogo-da-forca
 ## Código com o jogo da forca , um readme para mais detalhes e o link da live gravada :D 
-
-Olá sejam bem vindos a nossa 4° Live do nosso projeto de RoadMapPython, hoje iremos realizar a criação de um jogo da forca em python , utilizando o atom como nosso bloco de notas :3 , e utilizando o cmd como compilador .
+============================================================================================
+Olá sejam bem vindos(as) a nossa 4° Live do nosso projeto de RoadMapPython, hoje iremos realizar a criação de um jogo da forca em python , utilizando o atom como nosso bloco de notas :3 , e utilizando o cmd como compilador .
 Primeiramente eu queria conversar sobre o que é um jogo da forca e como consiste ele .Bem , o jogo da forca é um jogo em que o jogador tem que acertar qual é a palavra que foi dada, a pessoa deve tentar acertar chutando as letras , caso acerte a pessoa ganha , mas caso a pessoa chute várias letras que estejam erradas o usuário perde.
 E é quase isso que iremos realizar hoje so que em formato de código, iremos pegar o que acabamos de falar e deixar aqui destacado para lembrarmos do objetivo de nosso código de hoje.
 Na live de hoje iremos utilizar bastante o conceito de listas durante a construção do código ,listas e tuplas podem conter vários valores, o que torna mais fácil escrever programas que lidam com grandes quantidades de dados. E como as próprias listas podem conter outras listas, você pode usá-las para organizar os dados em estruturas hierárquicas.
@@ -27,7 +27,7 @@ palavra= choice(list).lower()
 o choice está aqui basicamente para escolher uma palavra aleatória dentro da variavel 
 list
 
-=================================================================================================
+============================================================================================
 
 agora iremos fazer um for no nosso jogo da forca
 
@@ -39,5 +39,65 @@ aqui estamos pegando cada letra da palavra e retornando dentro da estrutura abai
     else:
             mensagem += '_'
 se não estiver iremos imprimir 
-=================================================================================================
+============================================================================================
 ======================================|Código completo|==========================================
+Obs: O código abaixo pode não estar com a identação correta.
+
+    from random import choice
+    import os
+    import colorama
+    from colorama import Fore
+    from colorama import Style
+
+    colorama.init()
+
+    with open('Aplicacoes.txt') as aplicacoes:
+
+       linhas=aplicacoes.read()
+       list= linhas.split('\n')
+    palavra= choice(list).lower()
+
+    acertos = 0
+    erros = 0
+    erroletra = ''
+    acertoletra = ''
+
+    while acertos != len(palavra) and erros != 6:
+
+        print(' ')
+    
+        mensagem = ''
+    
+        for letra in palavra:
+    
+           if letra in acertoletra:
+               mensagem += letra             
+            else:
+               mensagem += '_'           
+        print(mensagem)
+    print(Fore.GREEN + Style.BRIGHT + "ıllı No momento ıllı" )
+    print(Fore.CYAN+"Tentativas restantes:", 6 - erros  )
+    print(Fore.RED +'Erros : ', erroletra )
+    print(Fore.BLUE + 'Acertos :  ', acertoletra  )
+    print(Fore.CYAN)
+    letra=str(input('Digite a letra:').lower())
+
+    os.system("cls")
+    if letra in acertoletra or letra in erroletra:
+        print(Fore.RED + 'Ops você ja usou essa letra ʘ.ʘ')
+    elif letra.isalpha() == False:
+        print('Você não digitou uma letra! ◉.◉')
+    elif letra in palavra:
+        print('Tem essa letra uau ! ツ ')
+        acertoletra += letra
+        acertos += palavra.count(letra)
+    else:
+        print('Uma pena , não tem essa letra x _ x')
+        erroletra += letra
+        erros += 1
+    os.system("cls")
+    if erros == 6:
+       print(Fore.RED + Style.BRIGHT +'(x ╭╮ x) Game Over (x ╭╮ x)',Style.RESET_ALL)
+
+    elif acertos == len(palavra):
+        print(Fore.GREEN + Style.BRIGHT + "^.^ Você ganhou, parabens! ^.^ " + Style.RESET_ALL)
