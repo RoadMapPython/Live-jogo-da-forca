@@ -64,7 +64,7 @@ while acertos != len(escolha) and erros != 6:
  somar mais um na variável de erro dele.
  
 =================================================================================================
-"Nossa mas eu coloquei vários A e consegui ganhar !?", é isso que iremos fazer agora!
+"Nossa mas eu coloquei vários A e consegui ganhar !?", é isso que iremos resolver agora!
 
 acertos = 0
 erros   = 0
@@ -82,7 +82,7 @@ while acertos != len(escolha) and erros != 6:
   elif letra.isalpha() == False:
        print('Você não digitou uma letra! ◉.◉')
        
-  if letra in escolha:
+  elif letra in escolha:
        print('Você acertou uma letra')
        acertoletra += letra
        acertos += 1
@@ -91,8 +91,23 @@ while acertos != len(escolha) and erros != 6:
        print('Você errou uma letra')
        erroletra += letra
        erros += 1
+       
+ Primeiro adicionamos listas vazias para colocarmos variaveis dentro,
+ e colocamos dentro do elif de acertos e no else de erros acumulando as
+ letras que a pessoa errou ou acertou, após isso adicionamos um if e um elif ,
+ para verificar se a pessoa ja digitou uma letra ou se a pessoa não digitou uma letra.
+ 
+ '''
+   if letra in acertoletra or letra in erroletra:
+       print('Ops você ja usou essa letra ʘ.ʘ')
   
+  elif letra.isalpha() == False:
+       print('Você não digitou uma letra! ◉.◉')
+ '''
 =================================================================================================
+Sim agora não posso digitar a mesma letra ou digitar uma coisa que nao seja do alfabeto
+so que tem palavra com letra repetida o que eu faço?
+
 =================================================================================================
 Agora chegamos em uma parte que parece complicada ,que é um conteudo que nao é abordado na disciplina do técnico ,um pouco complexo mais usado em conteúdos mais avançados ,porém entretanto todavia iremos fazer uma breve pincelada para o entendimento dessa estrutura ,mas pode deixar que quando for entendida você vai pensar "Agora eu entendi
 ,agora eu saquei ,agora todas as peças encaixaram!"  
@@ -129,7 +144,14 @@ aqui estamos pegando cada letra da palavra e retornando dentro da estrutura abai
 se não estiver iremos imprimir os tracinhos que escondem as letras no jogo da forca, e que será 
 mostrado no código abaixo
 ============================================================================================
-Na live não foi abordado de inicio o conceito de colorama , mas iremos introduzir 
+Na live não foi abordado de inicio o conceito de colorama , mas iremos introduzir .
+   
+   for letra in escolha:
+   if letra in acertoletra:
+        mensagem += letra             
+    else:
+        mensagem += '_'           
+    print(mensagem)
     print(mensagem)
     print(Fore.GREEN + Style.BRIGHT + "ıllı No momento ıllı" )
     print(Fore.CYAN+"Tentativas restantes:", 6 - erros  )
@@ -137,6 +159,9 @@ Na live não foi abordado de inicio o conceito de colorama , mas iremos introduz
     print(Fore.BLUE + 'Acertos :  ', acertoletra  )
     print(Fore.CYAN)
     letra=str(input('Digite a letra:').lower())
+    
+Nessa parte do código foi feito o que será mostrada ao usuário.
+
 ======================================|Código completo|==========================================
 Obs: O código abaixo pode não estar com a identação correta.
 
