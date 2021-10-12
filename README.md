@@ -224,8 +224,8 @@ Obs: O código abaixo pode não estar com a identação correta.
     elif acertos == len(escolha):
         print(Fore.GREEN + Style.BRIGHT + "^.^ Você ganhou, parabens! ^.^ " + Style.RESET_ALL)
        
--_-_-Dicionário-_-_-
-From      A partir de
+-_-_-Dicionário-_-_-<b>
+From      A partir de<b>
 random    Aleatório(a)
 choice    Escolha
 import    Importar
