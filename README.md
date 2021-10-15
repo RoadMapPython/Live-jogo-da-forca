@@ -1,5 +1,5 @@
 # Live-jogo-da-forca
-## Código com o jogo da forca , um readme para mais detalhes e o link da live gravada :D 
+## Código com o jogo da forca , um readme para mais detalhes e o link da live gravada: YouTube: https://youtu.be/RqSXq9Yfd7o 
 #Obs: tem um dicionário de palavras no final do documento
 
 ======================================|Introdução|==========================================
