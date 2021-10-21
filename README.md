@@ -1,6 +1,6 @@
 # Live-jogo-da-forca
 ## Código com o jogo da forca , um readme para mais detalhes e o link da live gravada: YouTube: https://youtu.be/RqSXq9Yfd7o 
--Obs: tem um dicionário de palavras no final do documento
+###### -Obs: tem um dicionário de palavras no final do documento
 
 ===============================|Introdução|==================================<br />
 Olá sejam bem vindos(as) a nossa 4° Live do nosso projeto de RoadMapPython, hoje iremos realizar a criação de um jogo da forca em python , utilizando  o Atom como editor de texto executando o python via terminal, ao decorrer da criação do código vou explicar mais como funciona.
