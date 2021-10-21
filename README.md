@@ -1,7 +1,7 @@
 # Live-jogo-da-forca
 ## Código com o jogo da forca , um readme para mais detalhes e o link da live gravada: YouTube: https://youtu.be/RqSXq9Yfd7o 
 -Obs: tem um dicionário de palavras no final do documento
-:EMOJICODE:
+
 ===============================|Introdução|==================================<br />
 Olá sejam bem vindos(as) a nossa 4° Live do nosso projeto de RoadMapPython, hoje iremos realizar a criação de um jogo da forca em python , utilizando  o Atom como editor de texto executando o python via terminal, ao decorrer da criação do código vou explicar mais como funciona.
 
@@ -224,20 +224,20 @@ Obs: O código abaixo pode não estar com a identação correta.
     elif acertos == len(escolha):
         print(Fore.GREEN + Style.BRIGHT + "^.^ Você ganhou, parabens! ^.^ " + Style.RESET_ALL)
        
--_-_-Dicionário-_-_-<b>
-From      A partir de<b>
-random    Aleatório(a)
-choice    Escolha
-import    Importar
-Fore      Parte da frente do texto
-Style     Estilo 
-init      Iniciar
-with      Com
-open      Abrir
-split     Dividir
-lower     Diminuir
-while     Enquanto
-for       Para
-if        E se
-else      Senão
-RESET_ALL Resetar tudo
+-_-_-Dicionário-_-_-<br />
+From      A partir de<br />
+random    Aleatório(a)<br />
+choice    Escolha<br />
+import    Importar<br />
+Fore      Parte da frente do texto<br />
+Style     Estilo <br />
+init      Iniciar<br />
+with      Com<br />
+open      Abrir<br />
+split     Dividir<br />
+lower     Diminuir<br />
+while     Enquanto<br />
+for       Para<br />
+if        E se<br />
+else      Senão<br />
+RESET_ALL Resetar tudo<br />
