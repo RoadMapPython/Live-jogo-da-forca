@@ -225,19 +225,19 @@ Obs: O código abaixo pode não estar com a identação correta.
         print(Fore.GREEN + Style.BRIGHT + "^.^ Você ganhou, parabens! ^.^ " + Style.RESET_ALL)
        
 -_-_-Dicionário-_-_-<br />
-From______A partir de<br />
-random____Aleatório(a)<br />
-choice____Escolha<br />
-import____Importar<br />
-Fore______Parte da frente do texto<br />
-Style_____Estilo <br />
-init______Iniciar<br />
-with______Com<br />
-open______Abrir<br />
-split_____Dividir<br />
-lower_____Diminuir<br />
-while_____Enquanto<br />
-for_______Para<br />
-if________E se<br />
-else______Senão<br />
+From________A partir de<br />
+random________Aleatório(a)<br />
+choice______Escolha<br />
+import______Importar<br />
+Fore________Parte da frente do texto<br />
+Style_______Estilo <br />
+init________Iniciar<br />
+with________Com<br />
+open________Abrir<br />
+split_______Dividir<br />
+lower_______Diminuir<br />
+while_______Enquanto<br />
+for_________Para<br />
+if__________E se<br />
+else________Senão<br />
 RESET_ALL_Resetar tudo<br />
