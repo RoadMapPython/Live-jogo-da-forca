@@ -1,25 +1,25 @@
 # Live-jogo-da-forca
 ## Código com o jogo da forca , um readme para mais detalhes e o link da live gravada: YouTube: https://youtu.be/RqSXq9Yfd7o 
-#Obs: tem um dicionário de palavras no final do documento
+######Obs: tem um dicionário de palavras no final do documento
 
 ===============================|Introdução|==================================<br />
-Olá sejam bem vindos(as) a nossa 4° Live do nosso projeto de RoadMapPython, hoje iremos realizar a criação de um jogo da forca em python , utilizando  o Atom como editor de texto executando o python via terminal, ao decorrer da criação do código vou explicar mais como funciona.
+* *Olá sejam bem vindos(as) a nossa 4° Live do nosso projeto de RoadMapPython, hoje iremos realizar a criação de um jogo da forca em python , utilizando  o Atom como editor de  * *texto executando o python via terminal, ao decorrer da criação do código vou explicar mais como funciona.
 
-Primeiramente eu queria conversar sobre o que é um jogo da forca e como consiste ele .Bem , o jogo da forca é um jogo em que o jogador tem que acertar qual é a palavra que foi dada, a pessoa deve tentar acertar chutando as letras , caso acerte a pessoa ganha , mas caso a pessoa chute várias letras que estejam erradas o usuário perde.
-E é quase isso que iremos realizar hoje so que em formato de código, iremos pegar o que acabamos de falar e deixar aqui 
-destacado para lembrarmos do objetivo de nosso código de hoje.
+* *Primeiramente eu queria conversar sobre o que é um jogo da forca e como consiste ele .Bem , o jogo da forca é um jogo em que o jogador tem que acertar qual é a palavra que   * *foi dada, a pessoa deve tentar acertar chutando as letras , caso acerte a pessoa ganha , mas caso a pessoa chute várias letras que estejam erradas o usuário perde.
+* *E é quase isso que iremos realizar hoje so que em formato de código, iremos pegar o que acabamos de falar e deixar aqui 
+* *destacado para lembrarmos do objetivo de nosso código de hoje.
 
-Na live de hoje iremos utilizar bastante o conceito de listas durante a construção do código ,listas e tuplas podem conter vários valores, o que torna mais fácil escrever programas que lidam com grandes quantidades de dados. E como as próprias listas podem conter outras listas, você pode usá-las para organizar os dados em cadeias de comandos.
+* *Na live de hoje iremos utilizar bastante o conceito de listas durante a construção do código ,listas e tuplas podem conter vários valores, o que torna mais fácil escrever    * *programas que lidam com grandes quantidades de dados. E como as próprias listas podem conter outras listas, você pode usá-las para organizar os dados em cadeias de comandos.
 
 =========================|Como executar o código via terminal|===================================<br />
-para executar o código é facil , só você saber aonde ele está localizado o meu por exemplo está na área de trabalho 
+Para executar o código é facil , só você saber aonde ele está localizado o meu por exemplo está na área de trabalho 
 da pastas Live jogo da forca que está dentro da pasta roadmap python , o cmd por padrão já inicia com seu usuárioda máquina,
 como por exemplo C:\Users\Juan> e para chegar ate ao local que está nosso código é so utilizar um comando em shell para , 
 irmos até la .
 
 cd Desktop\Roadmap Python\Live jogo da forca
 
-ai pronto estamos na pasta , agora é so digitar python JogoDaForca.py que executa o código ,simples ne?
+Ai pronto estamos na pasta , agora é so digitar python JogoDaForca.py que executa o código ,simples ne?
 
 ===========================|Construção do código|====================================<br />
 Agora que demos uma passada no conceito de listas iremos direto ao código , vamo declarar uma váriavel.
