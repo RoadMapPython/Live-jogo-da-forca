@@ -228,20 +228,24 @@ Obs: O código abaixo pode não estar com a identação correta.
     elif acertos == len(escolha):
         print(Fore.GREEN + Style.BRIGHT + "^.^ Você ganhou, parabens! ^.^ " + Style.RESET_ALL)
 ```
--_-_-Dicionário-_-_-<br />
-From________A partir de<br />
-random________Aleatório(a)<br />
-choice______Escolha<br />
-import______Importar<br />
-Fore________Parte da frente do texto<br />
-Style_______Estilo <br />
-init________Iniciar<br />
-with________Com<br />
-open________Abrir<br />
-split_______Dividir<br />
-lower_______Diminuir<br />
-while_______Enquanto<br />
-for_________Para<br />
-if__________E se_<br />
-else________Senão<br />
-RESET_ALL_Resetar tudo<br />
+* _Dicionário_
+
+| Inglês    | Português      |
+|-----------|----------------|
+| From      | A partir de    |
+| Random    | Aleatório(a)   |
+| Choice    | Escolha        | 
+| Import    | Importar       |
+| Fore      | Parte de       |
+|           |frente do texto |
+| Style     | Estilo         |
+| Init      | Iniciar        |
+| With      | Com            |
+| Open      | Abrir          |
+| Split     | Dividir        |
+| Lower     | Diminuir       |
+| While     | Enquanto       |
+| For       | Para           |
+| If        | E se           |
+| Else      | Senão          |
+| Reset_ALL | Resetar tudo   |
