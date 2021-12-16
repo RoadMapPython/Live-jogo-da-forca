@@ -25,7 +25,7 @@ Ai pronto estamos na pasta , agora é so digitar python JogoDaForca.py que execu
 _Agora que demos uma passada no conceito de listas iremos direto ao código._
 
 ```
-  escolha ='Roadmap'
+escolha ='Roadmap'
 
 letra=input('Digite a letra:')
 if letra in escolha:
