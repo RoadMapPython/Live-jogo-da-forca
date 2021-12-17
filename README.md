@@ -236,8 +236,7 @@ Obs: O código abaixo pode não estar com a identação correta.
 | Random    | Aleatório(a)   |
 | Choice    | Escolha        | 
 | Import    | Importar       |
-| Fore      | Parte de       |
-|           |frente do texto |
+| Fore      | Parte de frente do texto |
 | Style     | Estilo         |
 | Init      | Iniciar        |
 | With      | Com            |
